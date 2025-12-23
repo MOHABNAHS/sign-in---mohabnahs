@@ -12,6 +12,8 @@ body {
     min-height: 90vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .container {

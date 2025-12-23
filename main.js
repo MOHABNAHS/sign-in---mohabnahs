@@ -2,12 +2,13 @@
 submitBtn.onclick = function () {
   let labelEmail = document.getElementById("email").value;
   let labelPassword = document.getElementById("password").value;
+  let h1 = document.getElementById("h1");
   infoEmail = "test@gmail.com";
   infoPassword = "test";
 
   if (labelEmail != infoEmail || labelPassword != infoPassword) {
-    console.log("sign in is false");
+    h1.textContent = "عملية تسجيل دخول غير ناجحة";
   } else {
-    console.log("sign in is true");
+    h1.textContent = "عملية تسجيل دخول ناجحة";
   }
 };
